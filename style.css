@@ -1,0 +1,19 @@
+body{
+    height: 100vh;
+    background-color: rgb(231, 226, 226);
+}
+div{
+    height: 100px;
+    width: 300px;
+    background-color: red;
+    border: 2px solid black;
+    animation-name: slide;
+    animation-duration: 1s;
+    position: relative;
+    float: right;
+    }
+@keyframes slide{
+    50%  {right:500px; top:0px;}
+    100% {right:100%; top:0px;}
+   
+}
